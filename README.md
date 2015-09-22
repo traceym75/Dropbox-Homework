@@ -4,7 +4,7 @@ The purpose of this app was to learn how to implement the flow between the scree
 
 Time: I spent around 15 hours on the exercise
 
-## What can the app can do?
+## What can the app do?
 
 * [x] Required: User can tap through the 3 welcome screens.
 * [x] Required: User can follow the create user flow.
