@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C7842C11BABFD4A00E01082 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842C01BABFD4A00E01082 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842C31BADFBD400E01082 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842C21BADFBD400E01082 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842C51BADFBEC00E01082 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842C41BADFBEC00E01082 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842C71BAE0BA000E01082 /* TroubleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842C61BAE0BA000E01082 /* TroubleSignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842C91BAE1CFB00E01082 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842C81BAE1CFB00E01082 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842CB1BAFD61D00E01082 /* SettingsNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842CA1BAFD61D00E01082 /* SettingsNewUserViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842CD1BAFDC3A00E01082 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842CC1BAFDC3A00E01082 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7C7842D01BB1143C00E01082 /* KeyboardSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7842CF1BB1143C00E01082 /* KeyboardSignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7CF916671BAA85EA008E076F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF916661BAA85EA008E076F /* AppDelegate.swift */; };
 		7CF916691BAA85EA008E076F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF916681BAA85EA008E076F /* ViewController.swift */; };
 		7CF9166C1BAA85EA008E076F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9166A1BAA85EA008E076F /* Main.storyboard */; };
@@ -14,6 +22,7 @@
 		7CF916711BAA85EA008E076F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9166F1BAA85EA008E076F /* LaunchScreen.storyboard */; };
 		7CF9167C1BAA85EA008E076F /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9167B1BAA85EA008E076F /* DropboxTests.swift */; };
 		7CF916871BAA85EA008E076F /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF916861BAA85EA008E076F /* DropboxUITests.swift */; };
+		7CF9170B1BABF0C4008E076F /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9170A1BABF0C4008E076F /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C7842C01BABFD4A00E01082 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		7C7842C21BADFBD400E01082 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7C7842C41BADFBEC00E01082 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7C7842C61BAE0BA000E01082 /* TroubleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSignInViewController.swift; sourceTree = "<group>"; };
+		7C7842C81BAE1CFB00E01082 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7C7842CA1BAFD61D00E01082 /* SettingsNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNewUserViewController.swift; sourceTree = "<group>"; };
+		7C7842CC1BAFDC3A00E01082 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		7C7842CF1BB1143C00E01082 /* KeyboardSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardSignInViewController.swift; sourceTree = "<group>"; };
 		7CF916631BAA85EA008E076F /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF916661BAA85EA008E076F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CF916681BAA85EA008E076F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,7 @@
 		7CF916821BAA85EA008E076F /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF916861BAA85EA008E076F /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		7CF916881BAA85EA008E076F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF9170A1BABF0C4008E076F /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,15 @@
 				7CF916661BAA85EA008E076F /* AppDelegate.swift */,
 				7CF916681BAA85EA008E076F /* ViewController.swift */,
 				7CF9166A1BAA85EA008E076F /* Main.storyboard */,
+				7C7842CF1BB1143C00E01082 /* KeyboardSignInViewController.swift */,
+				7C7842CC1BAFDC3A00E01082 /* TermsViewController.swift */,
+				7C7842CA1BAFD61D00E01082 /* SettingsNewUserViewController.swift */,
+				7C7842C81BAE1CFB00E01082 /* SettingsViewController.swift */,
+				7C7842C61BAE0BA000E01082 /* TroubleSignInViewController.swift */,
+				7C7842C21BADFBD400E01082 /* SignInViewController.swift */,
+				7C7842C41BADFBEC00E01082 /* CreateAccountViewController.swift */,
+				7C7842C01BABFD4A00E01082 /* SignInRootViewController.swift */,
+				7CF9170A1BABF0C4008E076F /* CreateAccountRootViewController.swift */,
 				7CF9166D1BAA85EA008E076F /* Assets.xcassets */,
 				7CF9166F1BAA85EA008E076F /* LaunchScreen.storyboard */,
 				7CF916721BAA85EA008E076F /* Info.plist */,
@@ -255,8 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7842C51BADFBEC00E01082 /* CreateAccountViewController.swift in Sources */,
+				7C7842C71BAE0BA000E01082 /* TroubleSignInViewController.swift in Sources */,
+				7C7842CB1BAFD61D00E01082 /* SettingsNewUserViewController.swift in Sources */,
+				7CF9170B1BABF0C4008E076F /* CreateAccountRootViewController.swift in Sources */,
+				7C7842CD1BAFDC3A00E01082 /* TermsViewController.swift in Sources */,
 				7CF916691BAA85EA008E076F /* ViewController.swift in Sources */,
+				7C7842D01BB1143C00E01082 /* KeyboardSignInViewController.swift in Sources */,
 				7CF916671BAA85EA008E076F /* AppDelegate.swift in Sources */,
+				7C7842C31BADFBD400E01082 /* SignInViewController.swift in Sources */,
+				7C7842C11BABFD4A00E01082 /* SignInRootViewController.swift in Sources */,
+				7C7842C91BAE1CFB00E01082 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +517,7 @@
 				7CF9168D1BAA85EA008E076F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF9168E1BAA85EA008E076F /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +526,7 @@
 				7CF916901BAA85EA008E076F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF916911BAA85EA008E076F /* Build configuration list for PBXNativeTarget "DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +535,7 @@
 				7CF916931BAA85EA008E076F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
